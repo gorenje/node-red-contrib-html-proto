@@ -1,0 +1,34 @@
+{
+  "name" : "@gregoriusrippenstein/node-red-contrib-html-replacement",
+  "version": "0.0.7",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12"
+  },
+
+  "keywords": [
+    "node-red", "html"
+  ],
+
+  "homepage": "https://github.com/gorenje/node-red-contrib-html-proto#readme",
+  "license": "Don't do evil.",
+  "author": "Gerrit Riessen <gerrit@openmindmap.org>",
+  "engines": {
+    "node": ">=14"
+  },
+
+  "node-red" : {
+    "version": ">=3.0.0",
+    "nodes": {
+       "html2": "nodes/html2.js"
+    }
+  },
+
+  "description": "Replacement for the html node.",
+  "repository": {
+    "type": "github",
+    "url": "git+https://github.com/gorenje/node-red-contrib-html-proto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gorenje/node-red-contrib-html-proto"
+  }
+}
